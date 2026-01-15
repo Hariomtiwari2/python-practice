@@ -10,17 +10,50 @@
 
 # meanCal(a,b)
 
-arr = [1,2,3,4,5]
-x= int(input("X: "))
-def   linearSearch(arr , x):
-    for i in range(len(arr)):
-        if(arr[i] == x):
+# arr = [1,2,3,4,5]
+# x= int(input("X: "))
+# def   linearSearch(arr , x):
+#     for i in range(len(arr)):
+#         if(arr[i] == x):
            
-           return i
-    return -1
+#            return i
+#     return -1
         
-ans = linearSearch(arr , x)
-if(ans != -1):
-    print("element is at index: ",ans)
-else:
-    print("element not found")
+# ans = linearSearch(arr , x)
+# if(ans != -1):
+#     print("element is at index: ",ans)
+# else:
+#     print("element not found")
+
+# function to tell odd or even
+
+# def odd_even( x ):
+#     if (x%2 == 0):
+#         print("Even number")
+#     else:
+#         print("Odd number")
+
+# for i in range(1 , 5, 1):
+#     x = int(input("Number to check for odd-even: "))
+#     print(i,") x: ",x)
+#     odd_even(x)
+
+
+# name function to understand arguments
+
+def avg(*numbers):
+    print(type(numbers))
+    sum =0
+    for i in numbers:
+        sum = sum + i
+    print("Average is: ",sum/len(numbers))  
+
+# avg(1,2,3,4,5)
+# avg(1,2)
+avg(100)
+
+def names(**name):
+    print(name)
+    print("hskjdhfskj")
+
+names("DFG","DFG")
