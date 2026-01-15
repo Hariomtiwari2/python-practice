@@ -15,3 +15,5 @@ x=0
 for i in range(1 , 11 ,1):
     print(i , " ",even[x])
     x = x+1
+
+even.append(100)
