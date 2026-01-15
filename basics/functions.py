@@ -46,14 +46,8 @@ def avg(*numbers):
     sum =0
     for i in numbers:
         sum = sum + i
-    print("Average is: ",sum/len(numbers))  
+    return sum/len(numbers)  
 
 # avg(1,2,3,4,5)
 # avg(1,2)
-avg(100)
-
-def names(**name):
-    print(name)
-    print("hskjdhfskj")
-
-names("DFG","DFG")
+print(avg(100))
