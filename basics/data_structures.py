@@ -20,7 +20,7 @@
 
 
 # list methods
-l = [1,3,54,2,5,6,77]
+# l = [1,3,54,2,5,6,77]
 
 # #sorting 
 # print(l)
@@ -32,8 +32,14 @@ l = [1,3,54,2,5,6,77]
 # print(l)
 
 # print reverse of list
-l.reverse
-print(l)
+# l.reverse
+# print(l)
 
 # to get index of particular element
-print(l.index(77))
+# print(l.index(77))
+
+
+# Tuple 
+tup = (1,2,3,5,6)
+for i in tup:
+    print(i, type(i))
