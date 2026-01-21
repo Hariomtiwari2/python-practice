@@ -34,3 +34,18 @@ for i in range(10):
         print("5 will not be printed")
         continue
     print(i)
+else:
+    print("Loop ended sucessfully")
+
+#same example with while loop
+print("Same example with while loop!")
+i=0
+while(i <= 6):
+    if(i == 5):
+        print(" will not be printed")
+        i=i+1
+        continue
+    print(i)
+    i = i+1
+else:
+    print("Loop ended sucessfully")
