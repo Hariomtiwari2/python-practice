@@ -33,16 +33,26 @@
 # dict have key vale pair, seprated by :
 # element in dict are seprated by , 
 
-dict ={"Hariom" : "Human" ,
-       "Spoon" : "Object",
-       1 : 1  
-       }
-print("print entire dict")
-print(dict)
-print("Printing just keys of dict")
-for key in dict.keys():
-    print(dict[key])
+# dict ={"Hariom" : "Human" ,
+#        "Spoon" : "Object",
+#        1 : 1  
+#        }
+# print("print entire dict")
+# print(dict)
+# print("Printing just keys of dict")
+# for key in dict.keys():
+#     print(dict[key])
 
-print("printing keys values in the dict")
-for key , value in dict.items():
-    print(f"the value of {key} is {value}")
+# print("printing keys values in the dict")
+# for key , value in dict.items():
+#     print(f"the value of {key} is {value}")
+
+# METHODS IN Dictionaries 
+ep1 = {1:100 , 2:200 , 3:300}
+ep2 = {4:400 , 5:500 , 6:600}
+
+ep1.update(ep2)
+ep1.popitem()
+del ep1
+for val in ep1.values():
+    print(val)
