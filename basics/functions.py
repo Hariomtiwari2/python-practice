@@ -57,12 +57,17 @@
 # Exception : if try block fails to run , run exception block
 # finally : this block of code will run irrespective of try or exception 
 
-try:
-    l = [1,2,4,5]
-    i = int(input("Enter the index: "))
-    print(l[i])
-except Exception as e:
-    print(e)
+# try:
+#     l = [1,2,4,5]
+#     i = int(input("Enter the index: "))
+#     print(l[i])
+# except Exception as e:
+#     print(e)
 
-finally:
-    ("FINALLY BLOCK WILL ALWAYS BE EXECUTED")
+# finally:
+#     ("FINALLY BLOCK WILL ALWAYS BE EXECUTED")
+
+# CUSTOM ERROR
+a = int(input("Emter the value b/w 5 and 9: "))
+if(a < 5 and a > 9 ):
+    raise print( ValueError(("Value should be b/w 5 and 9 !!!!")))
