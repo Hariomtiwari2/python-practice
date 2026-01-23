@@ -45,6 +45,8 @@ while(i <= 6):
         print(" will not be printed")
         i=i+1
         continue
+    if(i == 4):
+        break
     print(i)
     i = i+1
 else:

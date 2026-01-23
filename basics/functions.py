@@ -41,13 +41,28 @@
 
 # name function to understand arguments
 
-def avg(*numbers):
-    print(type(numbers))
-    sum =0
-    for i in numbers:
-        sum = sum + i
-    return sum/len(numbers)  
+# def avg(*numbers):
+#     print(type(numbers))
+#     sum =0
+#     for i in numbers:
+#         sum = sum + i
+#     return sum/len(numbers)  
 
-# avg(1,2,3,4,5)
-# avg(1,2)
-print(avg(100))
+# # avg(1,2,3,4,5)
+# # avg(1,2)
+# print(avg(100))
+
+#Exception Handling
+# try : try to run a block of code
+# Exception : if try block fails to run , run exception block
+# finally : this block of code will run irrespective of try or exception 
+
+try:
+    l = [1,2,4,5]
+    i = int(input("Enter the index: "))
+    print(l[i])
+except Exception as e:
+    print(e)
+
+finally:
+    ("FINALLY BLOCK WILL ALWAYS BE EXECUTED")
