@@ -68,6 +68,12 @@
 #     ("FINALLY BLOCK WILL ALWAYS BE EXECUTED")
 
 # CUSTOM ERROR
-a = int(input("Emter the value b/w 5 and 9: "))
-if(a < 5 and a > 9 ):
-    raise print( ValueError(("Value should be b/w 5 and 9 !!!!")))
+# a = int(input("Enter the value b/w 5 and 9: "))
+# if(a < 5 and a > 9 ):
+#     raise print( ValueError(("Value should be b/w 5 and 9 !!!!")))
+
+
+# short hand if-else
+A = int(input("A: "))
+B = int(input("B: "))
+print("A") if A > B else print("Equals") if A == B else print("B")
