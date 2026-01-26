@@ -74,6 +74,19 @@
 
 
 # short hand if-else
-A = int(input("A: "))
-B = int(input("B: "))
-print("A") if A > B else print("Equals") if A == B else print("B")
+# A = int(input("A: "))
+# B = int(input("B: "))
+# print("A") if A > B else print("Equals") if A == B else print("B")
+
+
+#Enuemeration in python
+
+marks = [1,2,4,5,2,5,3,2]
+index = 0
+
+for index , mark in enumerate(marks):
+    print(mark)
+    if (index == 3):
+        print("Hurray")
+    
+
